@@ -5,7 +5,7 @@ Realradioactive
 
 			 
 + Radioactiverabbit
-+ https://github.com/Realradioactive/
++ https://github.com/Realradioactive/Eagle-map/
 + Bu programın yazımı ve veya düzenlemesi realradioactive tarafından yapılmıştır.
 + Bu araç tamamen güvenlik testleri (pentest vs ) için düzenlenmiştir. Başka hiçbir amaç için kullanılamaz , başka amaçlar için kullanımı yasadışıdır. 
 + Bu aracın kullanımından doğacak tüm zarar ve tüm sorumluluk kullanıcıya aittir.
@@ -24,7 +24,7 @@ Usage of program for attacking targets without prior mutual consent is illegal. 
 Usage:
  
 ```
-git clone https://github.com/Realradioactive/eaglemap
+git clone https://github.com/Realradioactive/Eagle-map/
 cd eaglemap
 python3 eaglemap.py
 ```
