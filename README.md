@@ -34,3 +34,7 @@ cd eaglemap
 python3 eaglemap.py
 ```
 
+Örnek:
+
+![Screenshot_1](https://user-images.githubusercontent.com/61369603/92652809-21226400-f2f6-11ea-8900-c419c9c34e16.png)
+
