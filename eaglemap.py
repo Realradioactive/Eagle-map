@@ -83,8 +83,8 @@ if ayar==1:
                     print("Bilgiler", banner)
                     if ayar3==1:
                     #if "SSH" in str(banner):
-                        print("Loglar Kayıt ediliyor. (logs.txt dosyasına)")
-                        log = "ip:"+str(ip) + " port:" +str(port)
+                        print("Log dosyasına yeni bulunan port eklendi")
+                        log = "ip:"+str(ip) + " port:" +str(port)+"\n"
                         dosya = open("logs.txt", "a")
                         dosya.write(log)
                         dosya.close()
@@ -92,8 +92,8 @@ if ayar==1:
                         print("Hatırlatma - Loglar kapalı.")
                 except:
                     pass
-        ##print(port_liste)
-        ##print(banner_liste)
+        print("Açık Portlar Listesi:",port_liste)
+        print("Bulunan Veriler Listesi:",banner_liste)
         print("Tarama Tamamlandı.")
 
     elif ayar2==2:
@@ -114,8 +114,8 @@ if ayar==1:
                     print("Yakalanan Veriler :", banner)
                     if ayar3 == 1:
                         # if "SSH" in str(banner):
-                        print("Loglar Kayıt ediliyor. (logs.txt dosyasına)")
-                        log = "ip:" + str(ip) + " port:" + str(port)
+                        print("Log dosyasına yeni bulunan port eklendi")
+                        log = "ip:" + str(ip) + " port:" + str(port) + "\n"
                         dosya = open("logs.txt", "a")
                         dosya.write(log)
                         dosya.close()
@@ -123,8 +123,8 @@ if ayar==1:
                         print("Hatırlatma - Loglar kapalı.")
                 except:
                     pass
-        ##print(port_liste)
-        ##print(banner_liste)
+        print("Açık Portlar Listesi:", port_liste)
+        print("Bulunan Veriler Listesi:", banner_liste)
         print("Tarama Tamamlandı.")
 elif ayar==2:
     if ayar2==1:
@@ -145,8 +145,8 @@ elif ayar==2:
                     print("Bilgiler", banner)
                     if ayar3 == 1:
                         # if "SSH" in str(banner):
-                        print("Loglar Kayıt ediliyor. (logs.txt dosyasına)")
-                        log = "ip:" + str(ip) + " port:" + str(port)
+                        print("Log dosyasına yeni bulunan port eklendi")
+                        log = "ip:" + str(ip) + " port:" + str(port) + "\n"
                         dosya = open("logs.txt", "a")
                         dosya.write(log)
                         dosya.close()
@@ -154,8 +154,8 @@ elif ayar==2:
                         print("Hatırlatma - Loglar kapalı.")
                 except:
                     pass
-       ##print(port_liste)
-       ##print(banner_liste)
+        print("Açık Portlar Listesi:", port_liste)
+        print("Bulunan Veriler Listesi:", banner_liste)
         print("Tarama Tamamlandı.")
     elif ayar2==2:
         sabitport = int(input("Portu yazın:"))
@@ -174,8 +174,8 @@ elif ayar==2:
                     print("Yakalanan Veriler:", banner)
                     if ayar3 == 1:
                         # if "SSH" in str(banner):
-                        print("Loglar Kayıt ediliyor. (logs.txt dosyasına)")
-                        log = "ip:" + str(ip) + " port:" + str(port)
+                        print("Log dosyasına yeni bulunan port eklendi")
+                        log = "ip:" + str(ip) + " port:" + str(port) + "\n"
                         dosya = open("logs.txt", "a")
                         dosya.write(log)
                         dosya.close()
@@ -183,8 +183,8 @@ elif ayar==2:
                         print("Hatırlatma - Loglar kapalı.")
                 except:
                     pass
-        ##print(port_liste)
-        ##print(banner_liste)
+        print("Açık Portlar Listesi:", port_liste)
+        print("Bulunan Veriler Listesi:", banner_liste)
         print("Tarama Tamamlandı.")
 else:
     print("Ayarı yanlış belirttin - özel ayar için 1,listeden taramak için 2 deyiniz. \n Program kapanıyor")
